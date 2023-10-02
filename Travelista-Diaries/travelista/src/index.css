@@ -1,0 +1,189 @@
+.diamond {
+  width: 140px;
+  height: 140px;
+   /* background-color: #333af1;  */
+  position: relative;
+  transform: rotate(45deg);
+  margin: 50px; 
+  border: 3px solid #64CCC5;
+  border-radius: 10px;
+}
+
+/* .diamond::before {
+  content: '';
+  position: absolute;
+  top: -16px;
+  left: 17px;
+  width: 100%;
+  height: 100%;
+   background-color: inherit;
+  transform: rotate(90deg);
+  background-color: aqua;
+  border-radius: 10px;
+  
+} */
+.img1{
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: -93px;
+  max-width: 415px;
+  height: 277px;
+  /* transform: rotate(45deg); */
+  border-radius: 10px;
+}
+.img2{
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 296px;
+  max-width: 415px;
+  height: 277px;
+  /* transform: rotate(45deg); */
+  border-radius: 10px;
+}
+.img3{
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: -93px;
+  max-width: 415px;
+  height: 277px;
+  /* transform: rotate(45deg); */
+  border-radius: 10px;
+}
+.img4{
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 296px;
+  max-width: 415px;
+  height: 277px;
+  /* transform: rotate(45deg); */
+  border-radius: 10px;
+}
+.sec1{
+  content: '';
+  position: relative;
+  top: -5px;
+  left: 107px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.sec2{
+  content: '';
+  position: relative;
+  top: -33px;
+  left: 153px;
+  display: flex;
+  flex-direction: row;
+}
+.sec3{
+  content: '';
+  position: relative;
+  top: -48px;
+  left: 107px;
+  display: flex;
+  flex-direction: row;
+
+}
+.sec4{
+  content: '';
+  position: relative;
+  top: -111px;
+  left: 153px;
+  display: flex;
+  flex-direction: row;
+}
+.header{
+text-align: right;
+padding: 0px 171px;
+margin-top: 10px;
+}
+.heading{
+  font-size: 57px;
+  color:#EEEEEE ;
+}
+.subheading{
+  color:#F9D949 ;
+  margin-bottom: -7px;;
+}
+/* .container{
+ height: 100vh;   
+} */
+/* .container::before{
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  content: " ";
+  background-image: url(Images/simple-background-rtnas8sp20v6vzyp.jpg);
+  background-size:cover;
+ background-repeat: no-repeat;
+ position: absolute;
+} */
+.back{
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  /* width: 0px; */
+  position: relative;
+   object-fit: cover;
+  /* justify-content: center;
+  align-items: center; */
+  background-repeat:repeat-x;
+  opacity: 1;
+  z-index: -100;
+}
+.bgimage{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+/* body{
+ background-image: url(Images/simple-background-rtnas8sp20v6vzyp.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ width:100vw;
+} */
+.para{
+  width: 450px;
+  color: #EEEEEE;
+}
+.headpara{
+  padding: 20px;
+  margin-top: 34px;
+  margin-left: 3px;
+}
+.headpara2{
+  padding: 20px;
+  margin-top: 38px;
+  margin-left: -38px;
+}
+.collage{
+  content: '';
+  position: absolute;
+  top: 133px;
+  left: 906px;
+  max-width: 786px;
+  height: 1026px;
+  border-radius: 7px;
+}  
+body{
+  /* margin: 0;
+  padding: 0; */
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-image: url("D:\Travelista_Diaries\Travelista_Diaries\travelista\Images\SimpleBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.container{
+ height: 100%;
+}
